@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educación</title>
+</head>
+<body>
+    <header>
+        <h1> 
+            <!-- agregando imagen svg del gato -->
+            <svg width = "80" height = "50" viewBox = "40 0 120 120">
+                <image width = "130px" height = "130px" xlink:href ="img/gato.svg" />
+            <!-- letra F -->
+                <line x1="132" y1="20" x2="132" y2="80" stroke="black" stroke-width="5" />
+                <line x1="129" y1="20" x2="160" y2="30" stroke="black" stroke-width="5" />
+                <line x1="132" y1="50" x2="150" y2="50" stroke="black" stroke-width="5" />
+                <!-- letra L -->
+                <line x1="160" y1="50" x2="160" y2="95" stroke="black" stroke-width="5" />
+                <line x1="158" y1="95" x2="190" y2="85" stroke="black" stroke-width="5" />
+            </svg>
+            Hoja de Vida
+        </h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="educacion.html" target="_blank">Educación</a>
+        <a href="experiencia.html" target="_blank">Experiencia</a>
+    </nav>
+    <section>
+        <h2>Educación</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2000-2005</td>
+                    <td>Instituto Tecnológico de Acapulco</td>
+                    <td>Acapulco, Gro.</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>1997-2000</td>
+                    <td>CBTis 14</td>
+                    <td>Acapulco, Gro.</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1993-1996</td>
+                    <td>Secundaria Diurna No. 60 "República de Honduras"</td>
+                    <td>Ciudad de México</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1987-1993</td>
+                    <td>Escuela Primaria Rubén Moreira Cobos</td>
+                    <td>Ciudad de México</td>
+                    <td>Sí</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Agregar Estudios</h3>
+        <form autocomplete="on" name="Otros estudios" action="">
+            <select name="" id="">
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+            </select>
+            <p>
+                <b><label for="">Institución: </label></b>
+                <input type="text">
+            </p>
+            <p>
+                <b><label for="">Lugar: </label></b>
+                <input type="text" required>
+            </p>
+            <input type="submit" value="Enviar">
+        </form>    
+    </section>
+
+    <footer>
+        <h3>Datos de contacto:</h3>
+        <span>mju4rez@gmail.com  | </span><span>facebook: @frishlin</span>
+    </footer>
+</body>
+</html>
